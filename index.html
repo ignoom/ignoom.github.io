@@ -5,7 +5,7 @@
   <head>
   <style type="text/css">
     .mainHeader {
-      height: 64px;
+      height: 130px;
       top: 0px;
       width: 100%;
       box-shadow: none;
@@ -15,7 +15,7 @@
       display: block;
       width: 100%;
       position: fixed;
-      top: 64px;
+      top: 130px;
     }
 
     .subHeader li {
@@ -27,7 +27,12 @@
     }
 
     .main-content {
-      padding-top: 64px;
+      padding-top: 130px;
+    }
+
+    .logo {
+      height: 100px;
+      width: 300px;
     }
   </style>
 
@@ -56,12 +61,29 @@
     <header>
       <div class="navbar-fixed">
         <!-- main nav bar -->
-        <nav class="mainHeader indigo darken-1 ">
+        <nav class="mainHeader indigo darken-4 ">
             <div class="nav-wrapper container">
                 <div class="section">
-                  <a id="logo" class="brand-logo" href="#">
-                    SIE Center
-                  </a>
+                  <div class="row">
+                    <div class="col s4 m4 left">
+                      <a id="logo" class="brand-logo" href="#">
+                      <img class="img-responsive left logo" alt="sie-center" src="img/SIE-Blanco-s.png">
+                      </a>
+                      <br/>
+                    </div>
+                    <div class="col s4 m4 center">
+                      <div class="row">
+                        a Tec de Mty
+                      </div>
+                      <div class="row">
+                        logos
+                      </div>
+                    </div>
+                    <div class="col s4 m4 right">
+                      Redes sociales
+                    </div>
+                  </div>
+                  
                 </div>
             </div>
         </nav>
@@ -206,21 +228,21 @@
           <div class="section center">
             <h3>Contacto</h3>
             <!-- Row superior -->
-              <div class="row s12">
+              <div class="row">
                 <h4>Oficinas</h4>
-                <div class="col s3">
+                <div class="col s12 m3">
                   Col 1
                   <i class="large mdi-maps-pin-drop"></i>
                 </div>
-                <div class="col s3">
+                <div class="col s12 m3">
                   Col 2
                   <i class="large mdi-maps-pin-drop"></i>
                 </div>
-                <div class="col s3">
+                <div class="col s12 m3">
                   Col 3
                   <i class="large mdi-maps-pin-drop"></i>
                 </div>
-                <div class="col s3">
+                <div class="col s12 m3">
                   Col 4
                   <i class="large mdi-maps-pin-drop"></i>
                 </div>
@@ -228,9 +250,9 @@
             <!-- /Row superior -->
 
             <!-- Row inferior de la seccion -->
-            <div class="row s12">
+            <div class="row">
             <!-- Contenido telefono y correo derecho -->
-              <div class="col s6 left-align">
+              <div class="col s12 m6 left-align">
                 
                 <div class="row">
                   <i class="small mdi-communication-call">
@@ -248,8 +270,8 @@
              <!-- Contenido izquiero, formulario -->
              
              <!-- /Contenido izquierdo, formulario --> 
-              <div class="col s6 right-align">
-               <form class="col s12 yellow lighten-5">
+              <div class="col s12 m6 right-align">
+               <form class="col s12 m12 yellow lighten-5">
                 
                 <div class="row">
                   <div class="input-field col s12">
