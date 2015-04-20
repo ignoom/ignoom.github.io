@@ -1,8 +1,8 @@
 {
   "owl" : [
-      {"item" : "<span class='item'><h1>Noticia 1</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 2</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 3</h1></span>"},
+      {"item" : "<span class='item'><h1>Noticia 1</h1><img src="img/new1.png"></span>"},
+      {"item" : "<span class='item'><h1>Noticia 2</h1><img src="img/new2.jpg"></span>"},
+      {"item" : "<span class='item'><h1>Noticia 3</h1><img src="img/new3.png"></span>"},
       {"item" : "<span class='item'><h1>Noticia 4</h1></span>"},
       {"item" : "<span class='item'><h1>Noticia 5</h1></span>"},
       {"item" : "<span class='item'><h1>SIE 6</h1></span>"},
