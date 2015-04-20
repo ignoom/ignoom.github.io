@@ -1,7 +1,7 @@
 {
   "owl" : [
-      {"item" : "<span class='item'><h1>Noticia 1</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 2</h1></span>"},
+      {"item" : "<span class='item'><h1>Noticia 1</h1><img src="https://i1.ytimg.com/sh/aQGANuQpMYE/showposter.jpg?v=4f63a92b"></span>"},
+      {"item" : "<span class='item'><h1>Noticia 2</h1><img src="https://i1.ytimg.com/sh/6YjeFxv50iM/showposter.jpg?v=4fee1203"></span>"},
       {"item" : "<span class='item'><h1>Noticia 3</h1></span>"},
       {"item" : "<span class='item'><h1>Noticia 4</h1></span>"},
       {"item" : "<span class='item'><h1>Noticia 5</h1></span>"},
