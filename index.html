@@ -41,12 +41,20 @@
       width: 130px;
     }
 
+    .redes-sociales i{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
   </style>
 
   <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+
+  <!-- Font Awesome! -->
+    <link rel="stylesheet" href="vendor/font-awesome-4.3.0/css/font-awesome.min.css">
 
   <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
@@ -89,8 +97,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col s2 m3 right hide-on-med-and-down">
-                      Redes sociales
+                    <div class="col s2 m3 center hide-on-med-and-down redes-sociales">
+                      <a href="#"><i class="fa fa-facebook-square"></i></a>
+                      <a href="#"><i class="fa fa-twitter-square"></i></a>
+                      <a href="#"><i class="fa fa-linkedin-square"></i></a>
                     </div>
                   </div>
                   
@@ -376,7 +386,7 @@
 
         $("#owl-demo").owlCarousel({
           jsonPath : "json/data.json",
-          items : 1 
+          items : 1
         });
       });
       </script>
