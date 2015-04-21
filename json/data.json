@@ -1,18 +1,9 @@
 {
   "owl" : [
-      {"item" : "<span class='item'><h1>Noticia 1</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 2</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 3</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 4</h1></span>"},
-      {"item" : "<span class='item'><h1>Noticia 5</h1></span>"},
-      {"item" : "<span class='item'><h1>SIE 6</h1></span>"},
-      {"item" : "<span class='item'><h1>SIE 7</h1></span>"},
-      {"item" : "<span class='item'><h1>SIE 8</h1></span>"},
-      {"item" : "<span class='item'><h1>SIE 9</h1></span>"},
-      {"item" : "<span class='item'><h1>SIE 10</h1></span>"},
-      {"item" : "<span class='item'><h1>CENTER 11</h1></span>"},
-      {"item" : "<span class='item'><h1>CENTER 12</h1></span>"},
-      {"item" : "<span class='item'><h1>CENTER 13</h1></span>"},
-      {"item" : "<span class='item'><h1>CENTER 14</h1></span>"}
+      {"item" : "<span class='item'><h1>Fenómeno \"tech\" sin Internet 1</h1><p>Hoy no se concibe la vida sin Internet. Pero una nueva tecnología planea transformar esta percepción. Se trata de los beacons (balizas, o sensores en español), que prometen proporcionarle un valor agregado a la actividad turística, comercial y gastronómica del mundo. Son pequeños artefactos que se colocan en un local y se conectan con el usuario a través de Bluetooth.</p></span>"},
+      {"item" : "<span class='item'><h1>Algar Tech y Provincia Net sellan una alianza regional</h1><p>La compañía brasilera Algar Tech y Provincia Net (empresa argentina del holding Grupo Provincia dedicada a brindar soluciones tecnológicas) sellaron formalmente una alianza estratégica con el propósito de brindar en forma conjunta soluciones de data center en Latinoamérica. Mauricio Ferreira, gerente General de Algar Tech para Latinoamérica, y Santiago Montoya, presidente del Grupo Provincia fueron los responsables de la firma del acuerdo que permitirá a la compañía argentina expandirse en la región a través de Algar Tech y ésta podrá sumar a su portfolio de servicios las soluciones de data center, respaldadas por la infraestructura de Provincia Net.</p></span>"},
+      {"item" : "<span class='item'><h1>Samsung impulsa la formación a jóvenes en profesiones digitales en la nueva edición de Samsung Tech Institute</h1><p>Gracias a la ampliación del convenio de colaboración suscrito entre la Universidad Politécnica de Madrid (UPM) y Samsung, el pasado viernes 17 de abril comenzó en la universidad madrileña el primer curso de 2015 de Samsung Tech Institute, el programa de Ciudadanía Corporativa de la compañía surcoreana orientado a dar formación tecnológica a los jóvenes para facilitar su acceso a la nueva economía digital.</p></span>"},
+      {"item" : "<span class='item'><h1>Realidad virtual tocable, lo último en tecnología</h1><p>La compañía británica Ultrahaptics ha desarrollado una nueva tecnología que utiliza ultrasonidos para dar forma y proyectar sensaciones a través del aire directamente sobre una mano. De esta manera los usuarios podrán interaccionar con objetos virtuales en 3D.</p></span>"},
+      {"item" : "<span class='item'><h1>Noticia 5</h1></span>"}
   ]
 }
