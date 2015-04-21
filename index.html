@@ -53,6 +53,37 @@
 
   </style>
 
+<!-- Responsive calendar-->
+<style>
+@media (max-width: 550px) {
+    .big-container {
+        display: none;
+    }
+}
+@media (min-width: 550px) {
+    .small-container {
+        display: none;
+    }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
   <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Compiled and minified CSS -->
@@ -240,7 +271,7 @@
         <div class="container">
           <div class="row center">
             <h3>Agenda</h3>
-            <div> <iframe src="https://www.google.com/calendar/embed?title=SIE%20Center&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=irvingalv%40gmail.com&amp;color=%23113F47&amp;ctz=America%2FMexico_City" style=" border:solid 1px #777 " width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+            <div class="responsive-iframe-container big-container"> <iframe src="https://www.google.com/calendar/embed?title=SIE%20Center&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%236666cc&amp;src=irvingalv%40gmail.com&amp;color=%23113F47&amp;ctz=America%2FMexico_City" style=" border:solid 1px #777 " width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
           </div>
         </div>
       </div>
